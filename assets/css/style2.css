@@ -3,7 +3,7 @@
     font-style: italic;
     margin: 0;
     box-sizing: border-box;
-  
+  /* outline: 1px solid black; */
     
 }
 
@@ -84,16 +84,112 @@ h2 {
              
 }
 
+legend {
+    font-weight: bold;
+}
+.permission {
+    font-size: 14px;
+}
 .container {
-    height: 900px;
+    height: 1150px;
     display: flex;
     background-color:aqua;
 }
 
 span {
-    width: 400px
-    
+    width: 300px;  
+    color: red
+  
 }
+
+.formcontainer {
+    background-color: rgb(227, 221, 136);
+    width: 900px;
+    padding: 30px;
+}
+
+fieldset {
+    
+    padding-top: 1rem;
+    padding-bottom: 1rem;    
+}
+
+input[type=text]{
+    width: 40%;
+    padding: 2px 0px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  .addr {
+    width: 90%;
+  }
+  input[name="address"]{
+    width: 74%;
+  } 
+
+  input[type=date]{
+    width: 30%;
+    padding: 2px 0px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=radio] input[type=checkbox] {   
+    margin: 0 0 0 2em;
+    
+  }
+
+  .row {
+
+    display: flex;
+  }
+
+  .r50 {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+.r50 label {
+    width: 30%;
+    vertical-align: middle;
+}
+  
+.r30 {
+    width: 35%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.grade {
+    display: flex;
+    align-items: center;
+}
+
+.r10 {
+    font-size: 10px;
+    width: 10%;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.r20 {
+    width: 11%;
+    display: flex;
+    align-items: center;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 30%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #e7f310;
+    border-color: white;
+    min-width: 100px;
+  }
+
 
 span img{
     height: 80%;
@@ -142,7 +238,7 @@ li {
 section {
     width: 60%;
     height: 100vh;
-    padding: 2rem;
+    padding: 1rem;
     vertical-align:top;
 }
 
@@ -155,6 +251,7 @@ section div{
 section p {
     padding-left: 1rem;
     padding-bottom: 1rem;
+    line-height: 1;
 }
 
 
@@ -197,3 +294,10 @@ line-height: 1.5;
     justify-content: space-between;
 }
 
+footer{
+    background-color: rgb(67, 20, 236); 
+    min-height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
